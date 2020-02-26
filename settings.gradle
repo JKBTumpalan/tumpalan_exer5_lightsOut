@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='tumpalan_exer3_LightsOut'

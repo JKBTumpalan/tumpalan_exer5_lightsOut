@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tumpalan_exer3_LightsOut</string>
+    <string name="main_head_text"> Lights Out!</string>
+    <string name="name_head"> Enter name </string>
+    <string name="play_text"> Play! </string>
+    <string name="retry">Retry</string>
+    <string name="clicks">Clicks:</string>
+</resources>
