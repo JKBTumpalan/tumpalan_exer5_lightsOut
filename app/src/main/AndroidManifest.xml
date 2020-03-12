@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tumpalan_exer3_lightsout">
+    package="com.example.tumpalan_exer5_lightsout">
 
     <application
         android:allowBackup="true"

@@ -1,8 +1,24 @@
 <resources>
-    <string name="app_name">tumpalan_exer3_LightsOut</string>
+    <string name="app_name">tumpalan_exer5_LightsOut</string>
     <string name="main_head_text"> Lights Out!</string>
     <string name="name_head"> Enter name </string>
     <string name="play_text"> Play! </string>
     <string name="retry">Retry</string>
     <string name="clicks">Clicks:</string>
+    <string name="rules_title"> Rules </string>
+    <string name="rules_body"> The game consists of a 5 by 5 grid of lights. When the game starts, a random number or a stored pattern of these
+        lights is switched on. Pressing any of the lights will toggle it and the four adjacent lights.\n\n
+        The goal of the puzzle is to switch all the lights off, preferably in as few button presses as possible. On this app, the user only
+        have 10 clicks OR 60 seconds to solve the puzzle, or else it will be a GAME OVER. </string>
+    <string name="rules_reference"> Reference: \'Beyond Tetris\' - Lights Out, Tony Delgado, GameSetWatch, January 29, 2007. Accessed on line October 18, 2007. </string>
+    <string name="exit">Exit</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="about_title">About</string>
+    <string name="about_body_text"> The game\'s goal is to turn off all the lights within the specified time and click limits. Toggle lights
+        by tapping the switches on your device. \n\n\n This game
+        is made for completion of the Exercise 05 of CMSC 23 - Mobile Computing with the topics Fragments and Navigation Paths.
+    </string>
+    <string name="dev_info">
+            Developer name: Tumpalan, John Karl B.\n\n
+            Lab Section: B-6L</string>
 </resources>

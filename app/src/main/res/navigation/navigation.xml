@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.TitleFragment"
+        android:label="title_layout"
+        tools:layout="@layout/title_layout" >
+        <action
+            android:id="@+id/action_titleFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/game_layout">
+        <action
+            android:id="@+id/action_gameFragment_to_gameWonFragment"
+            app:destination="@id/gameWonFragment"
+            app:popUpTo="@id/gameFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_gameFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment"
+            app:popUpTo="@id/gameFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.RulesFragment"
+        android:label="rules_layout"
+        tools:layout="@layout/rules_layout" />
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.GameOverFragment"
+        android:label="game_over_layout"
+        tools:layout="@layout/game_over_layout" >
+        <action
+            android:id="@+id/action_gameOverFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWonFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.GameWonFragment"
+        android:label="game_won_layout"
+        tools:layout="@layout/game_won_layout" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.tumpalan_exer5_lightsout.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/about_layout"/>
+</navigation>

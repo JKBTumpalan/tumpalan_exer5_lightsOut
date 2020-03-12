@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.tumpalan_exer5_lightsout.RulesFragment">
+
+    <TextView
+        android:id="@+id/rules_title"
+        android:layout_width="169dp"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="@string/rules_title"
+        android:textSize="42sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/rules_body"
+        android:layout_width="427dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules_title">
+
+        <TextView
+            android:id="@+id/rules_body_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="24sp"
+            android:text="@string/rules_body"
+            android:textSize="30sp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/rules_reference"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules_body"
+        app:layout_constraintVertical_bias="0.193" />
+</androidx.constraintlayout.widget.ConstraintLayout>
